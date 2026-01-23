@@ -54,7 +54,7 @@ docker build -t java-demo-app .
 Run the container:
 
 ```bash
-docker run --rm -p 8081:8080 java-demo-app
+docker run --rm -p 8080:8080 java-demo-app
 ```
 
 ---
@@ -78,7 +78,7 @@ This is purely for demo / template purposes and is not meant for production as-i
 Example:
 
 ```bash
-curl -u user:password http://localhost:8081/health
+curl -u user:password http://localhost:8080/health
 ```
 
 Sample response:
